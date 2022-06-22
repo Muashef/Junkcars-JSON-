@@ -1,0 +1,39 @@
+.bo {
+    height: 25px;
+}
+.bn {
+    fill: rgba(0, 0, 0, 1);
+}
+
+.dr{
+    font-size: 80px;
+    color: rgba(8, 8, 8, 1);
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+h1{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    text-shadow: 0px 0px 15px rgb(0 0 0 / 30%);
+}
+
+.text-primary{
+    color:#956655 !important;
+}
+
+/* .card{
+     width: 20rem;
+} */
+
+/* .icon::before{
+    content: "\f658";
+    background: #956655;
+    display: block;
+    width: 90px;
+    height: 58px;
+    /* margin: 20px; */
+    color: #fff;
+} */
