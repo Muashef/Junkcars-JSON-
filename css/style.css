@@ -1,14 +1,5 @@
-.bo {
-    height: 25px;
-}
-.bn {
-    fill: rgba(0, 0, 0, 1);
-}
-
-.dr{
-    font-size: 80px;
-    color: rgba(8, 8, 8, 1);
-    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+.nav-link{
+    color: #956655;
 }
 
 h1{

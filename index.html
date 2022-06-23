@@ -12,7 +12,7 @@
 </head>
 <body>
     <section id="Navbar">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="img/junk-cars-LOGO.jpg" alt="">
@@ -26,32 +26,27 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#Feedback">Feed Back</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Trends">Trends</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
   </section>
 
-  <section id="hero">
+  <section id="hero" style="margin-top:150px;">
     <div class="container">
        <div class="text-center mt-5">
-         <p>Welcome To junkcars.com</p>
+         <p >Welcome To junkcars.com</p>
          <h1>We exchange your junk cars
           for cash</h1>
           <img class="mt-5" src="img/car5.jpg" alt="">
@@ -92,7 +87,7 @@
     </div>
   </section>
 
-  <section id="main-hero" class="mt-5">
+  <section id="About" class="mt-5">
     <div class="container">
         <div class="main-content d-flex justify-content-center align-items-center">
             <div class="logo">
@@ -109,7 +104,7 @@
     </div>
   </section>
 
-  <section id="form-area mt-5">
+  <section id="Feedback" class="mt-5">
     <div class="container">
         <h2>You've got a feedback?</h2>
             <form action="" id="post-form">
@@ -126,7 +121,7 @@
     </div>
   </section>
 
-  <section id="cards-area" class="mt-5">
+  <section id="Trends" class="mt-5">
     <div class="container">
         <h2 class="mb-4">Trending on Junkcars</h2>
         <div class="row" id="feedback-holder">
@@ -136,7 +131,7 @@
                       <h5>1</h5>
                       <h6 id="feedback-title" class="card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet consectetur.</h6>
                       <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam unde corrupti similique in animi pariatur nostrum eius odit saepe beatae!.</p>
-                      <button type="button" class="btn btn-secondary me-3">View</button>
+                      <button type="button" class="btn btn-secondary me-3" id="view-btn">View</button>
                       <button type="button" class="btn btn-danger me-3">Update</button>
                       <button type="button" class="btn btn-success">Delete</button>
                     </div>
@@ -145,8 +140,19 @@
         </div>
     </div>
   </section>
+
+  <section id="footer" class="py-3 mt-5" style="background:#eeee;">
+    <div class="container">
+      <div class="text-center">
+        <h6>Copyright © 2022 | a Tida metals ENT company</h6>
+      </div>
+    </div>
+  </section>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
+    <!-- <script>
+      var scroll = new smoothScroll('a[href*="#"]');
+    </script> -->
 </body>
 </html>
