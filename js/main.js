@@ -58,7 +58,7 @@ function createPost(e) {
     .then((response) => response.json())
     .then((data)=>{
         console.log(data)
-        feedbackBox.push(data)
+        feedbackBox.unshift(data)
         console.log(feedbackBox)
         let feedbackHolder = '';
             feedbackBox.forEach(post =>{

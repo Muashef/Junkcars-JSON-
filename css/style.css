@@ -15,16 +15,12 @@ h1{
     color:#956655 !important;
 }
 
-/* .card{
-     width: 20rem;
-} */
 
-/* .icon::before{
-    content: "\f658";
-    background: #956655;
-    display: block;
-    width: 90px;
-    height: 58px;
-    /* margin: 20px; */
-    color: #fff;
-} */
+@media (max-width: 375px) {
+    .d-flex{
+        flex-direction: column;
+    }
+}
+
+
+
